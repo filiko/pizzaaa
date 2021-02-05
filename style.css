@@ -1,19 +1,25 @@
 
 
+
 body {
-  background-color: #8556b8;
+  background-color: #5b3b80;
 }
- #70489c
-#5b3b80
+/* 
+Main image container	
+*/
+
 .pageContainer {
+  height: auto;
+  border: 3px solid black;
   width: 940px;
-  margin: 22px auto 0 auto;
-  padding: 22px;
-  background-color: #8556b8;
+  margin: 20px auto 0 auto;
+  padding: 30x;
+  background-color: #70489c;
+  text-align: center
 }
  
 .imageContainer {
-  float: left;
+  float: center;
   width: 690px;
 }
  
@@ -22,6 +28,7 @@ body {
   width: 333px;
   margin-left: 22px;
   margin-top: 22px;
+  color: #e2f0dd;
 }
 
 img {
@@ -37,7 +44,7 @@ h1 {
 p, li {
   font-family: 'Times New Roman', serif;
   font-size: 22px;
-  color: #51473b;
+  color: #e2f0dd;
 }
 
 
@@ -46,4 +53,15 @@ p, li {
   display: table;
   clear: both;
 }
- 
+ hr {
+    border: none;
+    border-top: 5px double #300;
+    color: #300;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+footer {
+   text-align: center
+   padding: 30x;
+}
