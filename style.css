@@ -1,11 +1,17 @@
 
 
+.overheadpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 body {
   background-color: #5b3b80;
 }
 /* 
-Main image container	
+Main text container	
 */
 
 .pageContainer {
