@@ -1,35 +1,27 @@
 
-/* 
-	STYLE.CSS:
-	One stylesheet to rule them all.
-	
-	selector { property:value }
-	
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);
 
 body {
-  background-color: #5f5345;
+  background-color: #8556b8;
 }
- 
+ #70489c
+#5b3b80
 .pageContainer {
   width: 940px;
-  margin: 20px auto 0 auto;
-  padding: 20px;
-  background-color: #fff;
+  margin: 22px auto 0 auto;
+  padding: 22px;
+  background-color: #8556b8;
 }
  
 .imageContainer {
   float: left;
-  width: 620px;
+  width: 690px;
 }
  
 .textContainer {
   float: left;
-  width: 300px;
-  margin-left: 20px;
-  margin-top: 20px;
+  width: 333px;
+  margin-left: 22px;
+  margin-top: 22px;
 }
 
 img {
@@ -37,24 +29,17 @@ img {
 }
  
 h1 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family:'Brush Script MT', cursive;
   font-size: 64px;
-  color: #8b1b00;
+  color: #546cba;
 }
  
 p, li {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-size: 22px;
   color: #51473b;
 }
 
-
-
-
-/* ---- Advanced ---- */
-/* This tag is a bit advanced for this lesson,  
-   but is needed to wrap the pageContainer 
-   around any sized content that is floated within it. */
 
 .pageContainer:after { 
   content: " ";
